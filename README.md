@@ -33,7 +33,7 @@ Native Kotlin + Android Views (no Compose, no image libraries, **no permissions,
 ## Features
 
 - **Home**: CINÉ branding, top navigation, cinematic hero, *Your Entertainment* app row, Continue Watching, Trending This Week, Critically Acclaimed, Recently Added, Watchlist.
-- **Real app icons**: apps are discovered with `PackageManager` (Leanback + launcher intents). Labels and icons come straight from the installed apps — nothing is downloaded or redrawn. Installs/uninstalls are detected live. Missing core brands (Netflix, Prime Video, YouTube, Disney+, Sony LIV, Spotify) appear as clearly-marked *Not installed* placeholders (no logo is fabricated); OK opens their Play Store page if available.
+- **Real app icons**: apps are discovered with `PackageManager` (Leanback + launcher intents). Labels and icons come straight from the installed apps. nothing is downloaded or redrawn. Installs/uninstalls are detected live. Missing core brands (Netflix, Prime Video, YouTube, Disney+, Sony LIV, Spotify) appear as clearly-marked *Not installed* placeholders (no logo is fabricated); OK opens their Play Store page if available.
 - **Cinematic app preview**: focusing an app tile enlarges it, shows its real name/icon in the hero with sample artwork/title/description and a *Press OK to launch* cue. Preview content is labelled **SAMPLE** and never claims availability.
 - **Screens**: Home, Movie details, Application library (categories, recents, favourites), Search (D-pad keyboard), Settings, Movies / Series / Watchlist.
 - **Settings** (persisted locally): wallpaper, animations, UI scale, theme accent, application favourites/hidden, start screen, About.
