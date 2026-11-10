@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Build debug APK", "type": "shell", "command": "./gradlew assembleDebug", "group": { "kind": "build", "isDefault": true } },
+    { "label": "Run unit tests", "type": "shell", "command": "./gradlew testDebugUnitTest", "group": "test" },
+    { "label": "Lint", "type": "shell", "command": "./gradlew lintDebug" },
+    { "label": "Install on TV (adb)", "type": "shell", "command": "adb install -r app/build/outputs/apk/debug/app-debug.apk && adb shell am start -n com.cine.launcher/.MainActivity", "dependsOn": "Build debug APK" }
+  ]
+}

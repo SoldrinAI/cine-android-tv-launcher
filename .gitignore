@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.DS_Store
+*.jks
+*.keystore
+*.apk
+!dist/CineLauncher.apk
+
+# Third-party design export (contains screenshots with brand logos); keep locally only
+design-reference/
