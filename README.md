@@ -1,6 +1,32 @@
-# CINÉ — Android TV Launcher
+<h1 align="center">CINÉ</h1>
+<p align="center"><b>A cinematic, jewelry-gold Android TV launcher for Sony Bravia and Android TV.</b><br>
+Real app icons · full D-pad navigation · zero permissions · no network · no root</p>
 
-A premium, cinematic and fully customisable Android TV launcher designed for Sony Bravia and Android TV devices.
+<p align="center">
+  <img alt="Android 9+" src="https://img.shields.io/badge/Android%20TV-9%2B-3DDC84?logo=android&logoColor=white">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-native-7F52FF?logo=kotlin&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-F2CA50">
+  <img alt="Permissions" src="https://img.shields.io/badge/permissions-none-brightgreen">
+</p>
+
+<p align="center"><img src="docs/screenshots/01-home.png" alt="CINÉ home screen" width="100%"></p>
+
+## Screenshots
+
+Captured from an Android TV emulator at 1920×1080. Movie rows use clearly-labelled **sample** titles with generated artwork.
+
+| | |
+|---|---|
+| ![Cinematic app preview](docs/screenshots/02-app-preview.png)<br>**Cinematic app preview**: focus an app and the hero previews it | ![Shelves](docs/screenshots/03-shelves.png)<br>**Shelves**: Continue Watching, Trending, Acclaimed, Recently Added |
+| ![Applications](docs/screenshots/04-applications.png)<br>**Application library** with real installed icons | ![Details](docs/screenshots/05-details.png)<br>**Movie details** |
+| ![Search](docs/screenshots/06-search.png)<br>**Search** with an on-screen D-pad keyboard | ![Settings](docs/screenshots/07-settings.png)<br>**Settings**: wallpaper, motion, scale, theme |
+
+## Why CINÉ
+
+- **Your real apps, undistorted.** Icons and labels come straight from `PackageManager`, so Netflix, Prime Video, JioHotstar, YouTube and the rest look exactly as installed.
+- **Built for the couch.** Everything is reachable from the remote, focus is always visible, and the interface is sized for a 10-foot view.
+- **Light and private.** No permissions, no network, no analytics, no root. It works alongside the stock launcher.
+- **Make it yours.** Wallpapers, accent colours, UI scale, favourites, hidden apps and start screen.
 
 Native Kotlin + Android Views (no Compose, no image libraries, **no permissions, no network access**). Designed on a 1920×1080 canvas from a Google Stitch design ("Cinematic Luxury TV OS", see [docs/DESIGN.md](docs/DESIGN.md)).
 
