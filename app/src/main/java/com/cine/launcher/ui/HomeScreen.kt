@@ -128,7 +128,7 @@ class HomeScreen(host: Host) : Screen(host) {
 
     private val hero = Hero(host)
     private val list = Box(ctx).apply { orientation = LinearLayout.VERTICAL; setPadding(0, Ui.px(14), 0, Ui.px(60)) }
-    private val scroll = ScrollView(ctx).apply { isVerticalScrollBarEnabled = false; clipChildren = false; clipToPadding = false }
+    private val scroll = ScrollView(ctx).apply { isVerticalScrollBarEnabled = false; clipChildren = true; clipToPadding = true }
     private var appsRow: Row? = null
     private var firstTile: View? = null
     private val handler = Handler(Looper.getMainLooper())
@@ -140,6 +140,7 @@ class HomeScreen(host: Host) : Screen(host) {
 
     override val root: View = Box(ctx).apply {
         orientation = LinearLayout.VERTICAL
+        clipChildren = true
         addView(hero, lp(-1, (Ui.screenH * 0.50f).toInt()))
         scroll.addView(list, ViewGroup.LayoutParams(-1, -2))
         addView(scroll, lp(-1, 0).also { it.weight = 1f })
